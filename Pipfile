@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.2.6"
+
+[dev-packages]
+blue = "*"
+flake8 = "*"
+pytest = "*"
+pytest-django = "*"
+model-bakery = "*"
+
+[requires]
+python_version = "3.10"
